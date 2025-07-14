@@ -59,7 +59,7 @@ body {
 
 .nav-logo h2 {
     color: #233348;
-    font-size: 1.8rem;
+    font-size: 28.8px;
     font-weight: 700;
     cursor: pointer;
     transition: color 0.3s ease;
@@ -74,7 +74,7 @@ body {
 .nav-list {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .nav-item {
@@ -85,8 +85,8 @@ body {
     text-decoration: none;
     color: #1f2937;
     font-weight: 500;
-    font-size: 1rem;
-    padding: 0.5rem 0;
+    font-size: 16px;
+    padding: 8px 0;
     transition: color 0.3s ease;
     position: relative;
 }
@@ -117,7 +117,7 @@ body {
     border: none;
     padding: 12px 24px;
     border-radius: 25px;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -148,26 +148,26 @@ body {
 /* Main Content */
 .main-content {
     margin-top: 70px;
-    padding: 2rem 0;
+    padding: 32px 0;
 }
 
 .hero {
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 64px 32px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 40px;
     color: #1f2937;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 19.2px;
     color: #6b7280;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 /* Smooth scrolling */
@@ -193,11 +193,11 @@ html {
     margin-top: 70px;
     /* Add margin to account for fixed navbar */
     flex-direction: row;
-    padding: 4rem 2rem;
+    padding: 64px 32px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    gap: 3rem;
+    gap: 48px;
 }
 
 .header-content {
@@ -230,7 +230,7 @@ html {
     border-radius: 55px;
     text-decoration: none;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 16px;
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
@@ -351,7 +351,7 @@ html {
     font-size: 24px;
     font-weight: 700;
     color: #233348;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     line-height: 1.2;
 }
 
@@ -478,8 +478,10 @@ html {
 
 /* Testimonials Section */
 .testimonials {
+    border-radius: 36px;
+    margin: 20px 60px;
     background: linear-gradient(135deg, #67B6FF 0%, #458FF6 100%);
-    padding: 80px 0;
+    padding: 40px 0;
     margin-top: 80px;
     position: relative;
     overflow: hidden;
@@ -530,7 +532,7 @@ html {
 .testimonial-content {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 100px;
     color: #fff;
 }
 
@@ -579,7 +581,7 @@ html {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .nav-arrow {
@@ -753,35 +755,7 @@ html {
     box-shadow: 0 10px 25px rgba(69, 143, 246, 0.3);
 }
 
-/* Responsive Design for Articles */
-@media (max-width: 768px) {
-    .articles-section {
-        padding: 60px 0;
-    }
 
-    .articles-section h2 {
-        font-size: 28px;
-        margin-bottom: 40px;
-    }
-
-    .articles-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        margin-bottom: 40px;
-    }
-
-    .article-content {
-        padding: 20px;
-    }
-
-    .article-content h3 {
-        font-size: 18px;
-    }
-
-    .article-content p {
-        font-size: 14px;
-    }
-}
 
 /* Footer Section */
 .footer {
@@ -792,7 +766,7 @@ html {
     overflow: hidden;
 }
 
-.footer::before {
+/* .footer::before {
     content: '';
     position: absolute;
     top: 0;
@@ -805,7 +779,7 @@ html {
     background-size: 30px 30px;
     background-position: 0 0, 15px 15px;
     opacity: 0.6;
-}
+} */
 
 .footer-container {
     max-width: 1200px;
@@ -849,7 +823,7 @@ html {
 
 .footer-logo h2 {
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 28.8px;
     font-weight: 700;
     margin: 0;
 }
@@ -897,51 +871,4 @@ html {
 .footer-links a:hover {
     color: #fff;
     text-decoration: underline;
-}
-
-/* Footer Responsive Design */
-@media (max-width: 1024px) {
-    .footer-content {
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
-    }
-
-    .footer-company {
-        grid-column: 1 / -1;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .footer {
-        padding: 60px 0 30px;
-        margin-top: 60px;
-    }
-
-    .footer-content {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        text-align: center;
-    }
-
-    .footer-company {
-        margin-bottom: 40px;
-    }
-
-    .footer-logo {
-        justify-content: center;
-    }
-
-    .footer-description {
-        font-size: 16px;
-    }
-
-    .footer-section h3 {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-
-    .footer-links a {
-        font-size: 16px;
-    }
 }
